@@ -15,7 +15,6 @@ services:
       WORDPRESS_DB_NAME: wpdb
     volumes:
       - ./server/wordpress:/var/www/html
-      - ./wp-content:/var/www/html/wp-content
 
   db:
     image: mysql:5.7
